@@ -1,2 +1,1 @@
-# SpiritualRefectory
-Small church club website
+https://v11ctoria.github.io/SpiritualRefectory/
