@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+body {
+    font-family: 'Muli', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: #D3E3FC;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topnav {
+    background: linear-gradient(to right, #e66465, #9198e5);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #9198e5;
+    color: black;
+  }
+  
+  .topnav h1 {
+    margin-top: 13px;
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+footer {
+  background: linear-gradient(to left, #e66465, #9198e5);
+    overflow: hidden;
+    padding: 14px 16px;
+    margin-top: auto;
+  }
